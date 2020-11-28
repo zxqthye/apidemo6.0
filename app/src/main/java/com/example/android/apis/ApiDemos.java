@@ -160,15 +160,7 @@ public class ApiDemos extends ListActivity {
 
         Log.e("aaa","adjfasdk");
         //111111111111
-        //插入1111
-        //wolaidle
         //222222222222
         //333333333333
-        //插入你好了
-        //ojdlaskd
-        //--09823y--
-        //----
-        //4444444444
-
     }
 }
