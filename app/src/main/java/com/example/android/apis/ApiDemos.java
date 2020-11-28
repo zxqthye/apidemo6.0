@@ -23,6 +23,7 @@ import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.content.pm.ResolveInfo;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
@@ -154,6 +155,10 @@ public class ApiDemos extends ListActivity {
         Intent intent = new Intent((Intent) map.get("intent"));
         intent.addCategory(Intent.CATEGORY_SAMPLE_CODE);
         Logger.d("onListItemClick: intent="+intent);
+
         startActivity(intent);
+
+        Log.e("aaa","adjfasdk");
+        //111111111111
     }
 }
