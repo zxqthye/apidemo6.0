@@ -158,9 +158,6 @@ public class ApiDemos extends ListActivity {
 
         startActivity(intent);
 
-        Log.e("aaa","adjfasdk");
-        //111111111111
-        //222222222222
-        //333333333333
     }
 }
+
